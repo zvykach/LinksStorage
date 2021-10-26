@@ -4,7 +4,7 @@
   "description": "Telegram bot based on Telegraf. Links storage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.ts"
   },
   "author": "zvykach",
   "license": "ISC",
@@ -12,5 +12,8 @@
     "dotenv": "^10.0.0",
     "mongoose": "^6.0.12",
     "telegraf": "^4.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }

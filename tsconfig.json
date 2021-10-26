@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+    },
+
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+
+    "rootDir": "src",
+    "strict": true,
+
+    "pretty": true,
+    "outDir": "build",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    
+    //"experimentalDecorators": true,
+    //"emitDecoratorMetadata": true,
+    //"forceConsistentCasingInFileNames": true,
+    //"noEmit": false,
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+  }
+}
